@@ -9,40 +9,28 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate
-{
-                            
+{                   
 	@IBOutlet var collectionView : UICollectionView
-	var items : Array<String> = Array(count: 10, repeatedValue: "Dupcia pupcia")
-	
-//	init(coder aDecoder: NSCoder!)
-//	{
-//		super.init(coder : aDecoder)
-//		self.items =
-//	}
+	var items : Array<String> = DataSourceGenerator.collectionContent()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 	}
 
-	override func didReceiveMemoryWarning() {
-		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can be recreated.
-	}
-
 	func collectionView(collectionView: UICollectionView!, numberOfItemsInSection section: Int) -> Int
 	{
-		return self.items.count;
+		return self.items.count
 	}
 	
 	// The cell that is returned must be retrieved from a call to -dequeueReusableCellWithReuseIdentifier:forIndexPath:
 	func collectionView(collectionView: UICollectionView!, cellForItemAtIndexPath indexPath: NSIndexPath!) -> UICollectionViewCell!
 	{
-		var cell = collectionView.dequeueReusableCellWithReuseIdentifier("note:cell", forIndexPath: nil) as NoteCollectionViewCell
-		
+		var cell = collectionView.dequeueReusableCellWithReuseIdentifier("note:cell", forIndexPath: indexPath) as NoteCollectionViewCell
 		cell.noteLabel.text = self.items[indexPath.row]
-		
+		cell.backgroundColor = UIColor(hue: CGFloat(rand() % 100) / 100, saturation: 1, brightness: 1, alpha: 1)
 		return cell
 	}
-
+    
+    
 }
 

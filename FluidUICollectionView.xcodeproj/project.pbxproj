@@ -13,6 +13,7 @@
 		30F891501968313100530525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F8914F1968313100530525 /* Images.xcassets */; };
 		30F8915C1968313100530525 /* FluidUICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8915B1968313100530525 /* FluidUICollectionViewTests.swift */; };
 		30F891661968325D00530525 /* NoteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F891651968325D00530525 /* NoteCollectionViewCell.swift */; };
+		BFC2E55619684034004D975D /* DataSourceGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC2E55519684033004D975D /* DataSourceGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		30F8915A1968313100530525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30F8915B1968313100530525 /* FluidUICollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidUICollectionViewTests.swift; sourceTree = "<group>"; };
 		30F891651968325D00530525 /* NoteCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteCollectionViewCell.swift; sourceTree = "<group>"; };
+		BFC2E55519684033004D975D /* DataSourceGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSourceGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				30F8914C1968313100530525 /* Main.storyboard */,
 				30F8914F1968313100530525 /* Images.xcassets */,
 				30F891461968313100530525 /* Supporting Files */,
+				BFC2E55519684033004D975D /* DataSourceGenerator.swift */,
 			);
 			path = FluidUICollectionView;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			files = (
 				30F891661968325D00530525 /* NoteCollectionViewCell.swift in Sources */,
 				30F8914B1968313100530525 /* ViewController.swift in Sources */,
+				BFC2E55619684034004D975D /* DataSourceGenerator.swift in Sources */,
 				30F891491968313100530525 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +404,7 @@
 				30F891611968313100530525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30F891621968313100530525 /* Build configuration list for PBXNativeTarget "FluidUICollectionViewTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +413,7 @@
 				30F891641968313100530525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
