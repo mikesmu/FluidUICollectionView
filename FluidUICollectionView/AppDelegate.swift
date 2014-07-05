@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  FluidUICollectionView
 //
-//  Created by Michał Smulski on 05.07.2014.
+//  Created by Michal Smulski on 05.07.2014.
 //
 //
 
