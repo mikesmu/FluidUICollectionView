@@ -12,7 +12,8 @@ class DataSourceGenerator {
     
     class func collectionContent () -> Array<String>
     {
-        return Array(count: 100, repeatedValue: "Ekhm!")
+//        return Array(count: 100, repeatedValue: "Ekhm!")
+        return ["Jestem tekstem dosyc dlugim, ale nie za bardzo", "Troche malo hehe", "Troche wiecej hehehe", "Cos jeszcze", "Litwo ojczyzno moja, lorem ipsum dolor simet"]
     }
     
     
