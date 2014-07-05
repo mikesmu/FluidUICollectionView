@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30F891491968313100530525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F891481968313100530525 /* AppDelegate.swift */; };
+		30F8914B1968313100530525 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8914A1968313100530525 /* ViewController.swift */; };
+		30F8914E1968313100530525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30F8914C1968313100530525 /* Main.storyboard */; };
+		30F891501968313100530525 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30F8914F1968313100530525 /* Images.xcassets */; };
+		30F8915C1968313100530525 /* FluidUICollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30F8915B1968313100530525 /* FluidUICollectionViewTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30F891561968313100530525 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30F8913B1968313100530525 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30F891421968313100530525;
+			remoteInfo = FluidUICollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F891431968313100530525 /* FluidUICollectionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FluidUICollectionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F891471968313100530525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F891481968313100530525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		30F8914A1968313100530525 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30F8914D1968313100530525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30F8914F1968313100530525 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30F891551968313100530525 /* FluidUICollectionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FluidUICollectionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30F8915A1968313100530525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30F8915B1968313100530525 /* FluidUICollectionViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidUICollectionViewTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30F891401968313100530525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F891521968313100530525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30F8913A1968313100530525 = {
+			isa = PBXGroup;
+			children = (
+				30F891451968313100530525 /* FluidUICollectionView */,
+				30F891581968313100530525 /* FluidUICollectionViewTests */,
+				30F891441968313100530525 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30F891441968313100530525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30F891431968313100530525 /* FluidUICollectionView.app */,
+				30F891551968313100530525 /* FluidUICollectionViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30F891451968313100530525 /* FluidUICollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				30F891481968313100530525 /* AppDelegate.swift */,
+				30F8914A1968313100530525 /* ViewController.swift */,
+				30F8914C1968313100530525 /* Main.storyboard */,
+				30F8914F1968313100530525 /* Images.xcassets */,
+				30F891461968313100530525 /* Supporting Files */,
+			);
+			path = FluidUICollectionView;
+			sourceTree = "<group>";
+		};
+		30F891461968313100530525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F891471968313100530525 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30F891581968313100530525 /* FluidUICollectionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				30F8915B1968313100530525 /* FluidUICollectionViewTests.swift */,
+				30F891591968313100530525 /* Supporting Files */,
+			);
+			path = FluidUICollectionViewTests;
+			sourceTree = "<group>";
+		};
+		30F891591968313100530525 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30F8915A1968313100530525 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30F891421968313100530525 /* FluidUICollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F8915F1968313100530525 /* Build configuration list for PBXNativeTarget "FluidUICollectionView" */;
+			buildPhases = (
+				30F8913F1968313100530525 /* Sources */,
+				30F891401968313100530525 /* Frameworks */,
+				30F891411968313100530525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FluidUICollectionView;
+			productName = FluidUICollectionView;
+			productReference = 30F891431968313100530525 /* FluidUICollectionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30F891541968313100530525 /* FluidUICollectionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30F891621968313100530525 /* Build configuration list for PBXNativeTarget "FluidUICollectionViewTests" */;
+			buildPhases = (
+				30F891511968313100530525 /* Sources */,
+				30F891521968313100530525 /* Frameworks */,
+				30F891531968313100530525 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30F891571968313100530525 /* PBXTargetDependency */,
+			);
+			name = FluidUICollectionViewTests;
+			productName = FluidUICollectionViewTests;
+			productReference = 30F891551968313100530525 /* FluidUICollectionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30F8913B1968313100530525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					30F891421968313100530525 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					30F891541968313100530525 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 30F891421968313100530525;
+					};
+				};
+			};
+			buildConfigurationList = 30F8913E1968313100530525 /* Build configuration list for PBXProject "FluidUICollectionView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30F8913A1968313100530525;
+			productRefGroup = 30F891441968313100530525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30F891421968313100530525 /* FluidUICollectionView */,
+				30F891541968313100530525 /* FluidUICollectionViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30F891411968313100530525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F8914E1968313100530525 /* Main.storyboard in Resources */,
+				30F891501968313100530525 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F891531968313100530525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30F8913F1968313100530525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F8914B1968313100530525 /* ViewController.swift in Sources */,
+				30F891491968313100530525 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30F891511968313100530525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30F8915C1968313100530525 /* FluidUICollectionViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30F891571968313100530525 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30F891421968313100530525 /* FluidUICollectionView */;
+			targetProxy = 30F891561968313100530525 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30F8914C1968313100530525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30F8914D1968313100530525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30F8915D1968313100530525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30F8915E1968313100530525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30F891601968313100530525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FluidUICollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		30F891611968313100530525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FluidUICollectionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		30F891631968313100530525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FluidUICollectionView.app/FluidUICollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FluidUICollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		30F891641968313100530525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FluidUICollectionView.app/FluidUICollectionView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FluidUICollectionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30F8913E1968313100530525 /* Build configuration list for PBXProject "FluidUICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F8915D1968313100530525 /* Debug */,
+				30F8915E1968313100530525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30F8915F1968313100530525 /* Build configuration list for PBXNativeTarget "FluidUICollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F891601968313100530525 /* Debug */,
+				30F891611968313100530525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30F891621968313100530525 /* Build configuration list for PBXNativeTarget "FluidUICollectionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F891631968313100530525 /* Debug */,
+				30F891641968313100530525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30F8913B1968313100530525 /* Project object */;
+}
